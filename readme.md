@@ -10,7 +10,7 @@ This system supports 4 different product types:
 
 1. **Product** - Basic product with name, price, and quantity
 2. **ExpirableProduct** - Product with expiration date functionality
-3. **ShippableProduct** - Product that can be shipped with weight information
+3. **ShippableProduct** - Product that can be shipped
 4. **ExpirableShippableProduct** - Product that is both expirable and shippable
 
 ### Shipping Calculations
@@ -21,6 +21,4 @@ This system supports 4 different product types:
 
 **Total shipping cost formula:**
 
-```
 Shipping Fee = Base Fee ($5) + (Total Weight in KG × $10)
-```
